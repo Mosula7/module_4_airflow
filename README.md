@@ -1,4 +1,4 @@
-The Project Consists of four main dags, please run them in the order listed here:
+The Project Consists of four dags, please run them in the order listed here:
 * configure_database - makes four tables for raw data, processed data, model training logs and predictions under churn database.
 * raw_processed - 1. uploads the raw data into the churn_raw table 2. takes the data from churn_raw table makes processes it so model can be trained on this data.
 * train - trains the model on the data from churn_processed and trains a model on it logs performance to models table and saves the model booster txt in the models folder. takes hyperparameters from model_config file.
