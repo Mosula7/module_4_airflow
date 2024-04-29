@@ -1,0 +1,336 @@
+[2024-04-29T19:30:25.670+0000] {processor.py:161} INFO - Started process (PID=173) to work on /opt/airflow/dags/dag_predict.py
+[2024-04-29T19:30:25.672+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_predict.py for tasks to queue
+[2024-04-29T19:30:25.676+0000] {logging_mixin.py:188} INFO - [2024-04-29T19:30:25.675+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_predict.py
+[2024-04-29T19:30:29.840+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_predict.py
+[2024-04-29T19:30:29.872+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_predict.py took 4.233 seconds
+[2024-04-29T19:31:00.450+0000] {processor.py:161} INFO - Started process (PID=227) to work on /opt/airflow/dags/dag_predict.py
+[2024-04-29T19:31:00.452+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_predict.py for tasks to queue
+[2024-04-29T19:31:00.453+0000] {logging_mixin.py:188} INFO - [2024-04-29T19:31:00.453+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_predict.py
+[2024-04-29T19:31:02.162+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_predict.py
+[2024-04-29T19:31:02.193+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_predict.py took 1.747 seconds
+[2024-04-29T19:48:26.902+0000] {processor.py:161} INFO - Started process (PID=174) to work on /opt/airflow/dags/dag_predict.py
+[2024-04-29T19:48:26.904+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_predict.py for tasks to queue
+[2024-04-29T19:48:26.910+0000] {logging_mixin.py:188} INFO - [2024-04-29T19:48:26.910+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_predict.py
+[2024-04-29T19:48:29.563+0000] {processor.py:840} INFO - DAG(s) 'predict_v8' retrieved from /opt/airflow/dags/dag_predict.py
+[2024-04-29T19:48:29.887+0000] {logging_mixin.py:188} INFO - [2024-04-29T19:48:29.886+0000] {override.py:1829} INFO - Created Permission View: can edit on DAG:predict_v8
+[2024-04-29T19:48:29.903+0000] {logging_mixin.py:188} INFO - [2024-04-29T19:48:29.902+0000] {override.py:1829} INFO - Created Permission View: can read on DAG:predict_v8
+[2024-04-29T19:48:29.914+0000] {logging_mixin.py:188} INFO - [2024-04-29T19:48:29.914+0000] {override.py:1829} INFO - Created Permission View: can delete on DAG:predict_v8
+[2024-04-29T19:48:29.916+0000] {logging_mixin.py:188} INFO - [2024-04-29T19:48:29.916+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T19:48:29.933+0000] {logging_mixin.py:188} INFO - [2024-04-29T19:48:29.932+0000] {dag.py:3118} INFO - Creating ORM DAG for predict_v8
+[2024-04-29T19:48:29.977+0000] {logging_mixin.py:188} INFO - [2024-04-29T19:48:29.977+0000] {dag.py:3954} INFO - Setting next_dagrun for predict_v8 to 2024-04-28 00:00:00+00:00, run_after=2024-04-29 00:00:00+00:00
+[2024-04-29T19:48:30.011+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_predict.py took 3.148 seconds
+[2024-04-29T19:49:01.037+0000] {processor.py:161} INFO - Started process (PID=228) to work on /opt/airflow/dags/dag_predict.py
+[2024-04-29T19:49:01.163+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_predict.py for tasks to queue
+[2024-04-29T19:49:01.259+0000] {logging_mixin.py:188} INFO - [2024-04-29T19:49:01.257+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_predict.py
+[2024-04-29T19:49:07.599+0000] {processor.py:840} INFO - DAG(s) 'predict_v8' retrieved from /opt/airflow/dags/dag_predict.py
+[2024-04-29T19:49:07.637+0000] {logging_mixin.py:188} INFO - [2024-04-29T19:49:07.636+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T19:49:07.669+0000] {logging_mixin.py:188} INFO - [2024-04-29T19:49:07.668+0000] {dag.py:3954} INFO - Setting next_dagrun for predict_v8 to 2024-04-28 00:00:00+00:00, run_after=2024-04-29 00:00:00+00:00
+[2024-04-29T19:49:07.697+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_predict.py took 7.352 seconds
+[2024-04-29T19:49:38.006+0000] {processor.py:161} INFO - Started process (PID=306) to work on /opt/airflow/dags/dag_predict.py
+[2024-04-29T19:49:38.008+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_predict.py for tasks to queue
+[2024-04-29T19:49:38.010+0000] {logging_mixin.py:188} INFO - [2024-04-29T19:49:38.010+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_predict.py
+[2024-04-29T19:49:39.020+0000] {processor.py:840} INFO - DAG(s) 'predict_v8' retrieved from /opt/airflow/dags/dag_predict.py
+[2024-04-29T19:49:39.041+0000] {logging_mixin.py:188} INFO - [2024-04-29T19:49:39.040+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T19:49:39.057+0000] {logging_mixin.py:188} INFO - [2024-04-29T19:49:39.057+0000] {dag.py:3954} INFO - Setting next_dagrun for predict_v8 to 2024-04-28 00:00:00+00:00, run_after=2024-04-29 00:00:00+00:00
+[2024-04-29T19:49:39.077+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_predict.py took 1.079 seconds
+[2024-04-29T19:50:09.689+0000] {processor.py:161} INFO - Started process (PID=342) to work on /opt/airflow/dags/dag_predict.py
+[2024-04-29T19:50:09.691+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_predict.py for tasks to queue
+[2024-04-29T19:50:09.700+0000] {logging_mixin.py:188} INFO - [2024-04-29T19:50:09.700+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_predict.py
+[2024-04-29T19:50:11.514+0000] {processor.py:840} INFO - DAG(s) 'predict_v8' retrieved from /opt/airflow/dags/dag_predict.py
+[2024-04-29T19:50:11.549+0000] {logging_mixin.py:188} INFO - [2024-04-29T19:50:11.549+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T19:50:11.604+0000] {logging_mixin.py:188} INFO - [2024-04-29T19:50:11.603+0000] {dag.py:3954} INFO - Setting next_dagrun for predict_v8 to 2024-04-28 00:00:00+00:00, run_after=2024-04-29 00:00:00+00:00
+[2024-04-29T19:50:11.637+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_predict.py took 1.967 seconds
+[2024-04-29T19:50:41.886+0000] {processor.py:161} INFO - Started process (PID=396) to work on /opt/airflow/dags/dag_predict.py
+[2024-04-29T19:50:41.903+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_predict.py for tasks to queue
+[2024-04-29T19:50:41.914+0000] {logging_mixin.py:188} INFO - [2024-04-29T19:50:41.911+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_predict.py
+[2024-04-29T19:50:44.805+0000] {processor.py:840} INFO - DAG(s) 'predict_v8' retrieved from /opt/airflow/dags/dag_predict.py
+[2024-04-29T19:50:44.869+0000] {logging_mixin.py:188} INFO - [2024-04-29T19:50:44.865+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T19:50:44.930+0000] {logging_mixin.py:188} INFO - [2024-04-29T19:50:44.930+0000] {dag.py:3954} INFO - Setting next_dagrun for predict_v8 to 2024-04-28 00:00:00+00:00, run_after=2024-04-29 00:00:00+00:00
+[2024-04-29T19:50:44.970+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_predict.py took 3.104 seconds
+[2024-04-29T19:51:15.462+0000] {processor.py:161} INFO - Started process (PID=450) to work on /opt/airflow/dags/dag_predict.py
+[2024-04-29T19:51:15.465+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_predict.py for tasks to queue
+[2024-04-29T19:51:15.472+0000] {logging_mixin.py:188} INFO - [2024-04-29T19:51:15.471+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_predict.py
+[2024-04-29T19:51:19.631+0000] {processor.py:840} INFO - DAG(s) 'predict_v8' retrieved from /opt/airflow/dags/dag_predict.py
+[2024-04-29T19:51:19.676+0000] {logging_mixin.py:188} INFO - [2024-04-29T19:51:19.675+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T19:51:19.704+0000] {logging_mixin.py:188} INFO - [2024-04-29T19:51:19.704+0000] {dag.py:3954} INFO - Setting next_dagrun for predict_v8 to 2024-04-28 00:00:00+00:00, run_after=2024-04-29 00:00:00+00:00
+[2024-04-29T19:51:19.730+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_predict.py took 4.288 seconds
+[2024-04-29T19:51:50.045+0000] {processor.py:161} INFO - Started process (PID=504) to work on /opt/airflow/dags/dag_predict.py
+[2024-04-29T19:51:50.082+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_predict.py for tasks to queue
+[2024-04-29T19:51:50.084+0000] {logging_mixin.py:188} INFO - [2024-04-29T19:51:50.084+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_predict.py
+[2024-04-29T19:51:51.981+0000] {processor.py:840} INFO - DAG(s) 'predict_v8' retrieved from /opt/airflow/dags/dag_predict.py
+[2024-04-29T19:51:52.134+0000] {logging_mixin.py:188} INFO - [2024-04-29T19:51:52.133+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T19:51:52.158+0000] {logging_mixin.py:188} INFO - [2024-04-29T19:51:52.158+0000] {dag.py:3954} INFO - Setting next_dagrun for predict_v8 to 2024-04-28 00:00:00+00:00, run_after=2024-04-29 00:00:00+00:00
+[2024-04-29T19:51:52.274+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_predict.py took 2.246 seconds
+[2024-04-29T19:52:22.942+0000] {processor.py:161} INFO - Started process (PID=558) to work on /opt/airflow/dags/dag_predict.py
+[2024-04-29T19:52:22.944+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_predict.py for tasks to queue
+[2024-04-29T19:52:22.947+0000] {logging_mixin.py:188} INFO - [2024-04-29T19:52:22.946+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_predict.py
+[2024-04-29T19:52:24.866+0000] {processor.py:840} INFO - DAG(s) 'predict_v8' retrieved from /opt/airflow/dags/dag_predict.py
+[2024-04-29T19:52:24.923+0000] {logging_mixin.py:188} INFO - [2024-04-29T19:52:24.922+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T19:52:24.963+0000] {logging_mixin.py:188} INFO - [2024-04-29T19:52:24.963+0000] {dag.py:3954} INFO - Setting next_dagrun for predict_v8 to 2024-04-28 00:00:00+00:00, run_after=2024-04-29 00:00:00+00:00
+[2024-04-29T19:52:25.006+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_predict.py took 2.075 seconds
+[2024-04-29T19:52:55.488+0000] {processor.py:161} INFO - Started process (PID=612) to work on /opt/airflow/dags/dag_predict.py
+[2024-04-29T19:52:55.491+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_predict.py for tasks to queue
+[2024-04-29T19:52:55.495+0000] {logging_mixin.py:188} INFO - [2024-04-29T19:52:55.494+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_predict.py
+[2024-04-29T19:52:58.382+0000] {processor.py:840} INFO - DAG(s) 'predict_v8' retrieved from /opt/airflow/dags/dag_predict.py
+[2024-04-29T19:52:58.451+0000] {logging_mixin.py:188} INFO - [2024-04-29T19:52:58.451+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T19:52:58.489+0000] {logging_mixin.py:188} INFO - [2024-04-29T19:52:58.489+0000] {dag.py:3954} INFO - Setting next_dagrun for predict_v8 to 2024-04-28 00:00:00+00:00, run_after=2024-04-29 00:00:00+00:00
+[2024-04-29T19:52:58.525+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_predict.py took 3.047 seconds
+[2024-04-29T19:53:30.529+0000] {processor.py:161} INFO - Started process (PID=671) to work on /opt/airflow/dags/dag_predict.py
+[2024-04-29T19:53:30.571+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_predict.py for tasks to queue
+[2024-04-29T19:53:30.574+0000] {logging_mixin.py:188} INFO - [2024-04-29T19:53:30.573+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_predict.py
+[2024-04-29T19:54:00.683+0000] {logging_mixin.py:188} INFO - [2024-04-29T19:54:00.675+0000] {timeout.py:68} ERROR - Process timed out, PID: 671
+[2024-04-29T19:54:31.823+0000] {processor.py:161} INFO - Started process (PID=720) to work on /opt/airflow/dags/dag_predict.py
+[2024-04-29T19:54:31.830+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_predict.py for tasks to queue
+[2024-04-29T19:54:31.834+0000] {logging_mixin.py:188} INFO - [2024-04-29T19:54:31.831+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_predict.py
+[2024-04-29T19:54:36.246+0000] {processor.py:840} INFO - DAG(s) 'predict_v8' retrieved from /opt/airflow/dags/dag_predict.py
+[2024-04-29T19:54:36.830+0000] {logging_mixin.py:188} INFO - [2024-04-29T19:54:36.828+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T19:54:36.925+0000] {logging_mixin.py:188} INFO - [2024-04-29T19:54:36.922+0000] {dag.py:3954} INFO - Setting next_dagrun for predict_v8 to 2024-04-28 00:00:00+00:00, run_after=2024-04-29 00:00:00+00:00
+[2024-04-29T19:54:37.005+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_predict.py took 5.497 seconds
+[2024-04-29T19:55:07.138+0000] {processor.py:161} INFO - Started process (PID=786) to work on /opt/airflow/dags/dag_predict.py
+[2024-04-29T19:55:07.139+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_predict.py for tasks to queue
+[2024-04-29T19:55:07.141+0000] {logging_mixin.py:188} INFO - [2024-04-29T19:55:07.140+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_predict.py
+[2024-04-29T19:55:10.039+0000] {processor.py:840} INFO - DAG(s) 'predict_v8' retrieved from /opt/airflow/dags/dag_predict.py
+[2024-04-29T19:55:10.099+0000] {logging_mixin.py:188} INFO - [2024-04-29T19:55:10.097+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T19:55:10.170+0000] {logging_mixin.py:188} INFO - [2024-04-29T19:55:10.170+0000] {dag.py:3954} INFO - Setting next_dagrun for predict_v8 to 2024-04-28 00:00:00+00:00, run_after=2024-04-29 00:00:00+00:00
+[2024-04-29T19:55:10.220+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_predict.py took 3.092 seconds
+[2024-04-29T19:55:41.161+0000] {processor.py:161} INFO - Started process (PID=851) to work on /opt/airflow/dags/dag_predict.py
+[2024-04-29T19:55:41.166+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_predict.py for tasks to queue
+[2024-04-29T19:55:41.169+0000] {logging_mixin.py:188} INFO - [2024-04-29T19:55:41.168+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_predict.py
+[2024-04-29T19:55:43.085+0000] {processor.py:840} INFO - DAG(s) 'predict_v8' retrieved from /opt/airflow/dags/dag_predict.py
+[2024-04-29T19:55:43.136+0000] {logging_mixin.py:188} INFO - [2024-04-29T19:55:43.135+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T19:55:43.172+0000] {logging_mixin.py:188} INFO - [2024-04-29T19:55:43.171+0000] {dag.py:3954} INFO - Setting next_dagrun for predict_v8 to 2024-04-28 00:00:00+00:00, run_after=2024-04-29 00:00:00+00:00
+[2024-04-29T19:55:43.208+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_predict.py took 2.073 seconds
+[2024-04-29T19:56:13.988+0000] {processor.py:161} INFO - Started process (PID=915) to work on /opt/airflow/dags/dag_predict.py
+[2024-04-29T19:56:13.989+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_predict.py for tasks to queue
+[2024-04-29T19:56:13.991+0000] {logging_mixin.py:188} INFO - [2024-04-29T19:56:13.990+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_predict.py
+[2024-04-29T19:56:15.906+0000] {processor.py:840} INFO - DAG(s) 'predict_v8' retrieved from /opt/airflow/dags/dag_predict.py
+[2024-04-29T19:56:15.939+0000] {logging_mixin.py:188} INFO - [2024-04-29T19:56:15.939+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T19:56:15.967+0000] {logging_mixin.py:188} INFO - [2024-04-29T19:56:15.966+0000] {dag.py:3954} INFO - Setting next_dagrun for predict_v8 to 2024-04-28 00:00:00+00:00, run_after=2024-04-29 00:00:00+00:00
+[2024-04-29T19:56:15.985+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_predict.py took 2.002 seconds
+[2024-04-29T19:56:46.394+0000] {processor.py:161} INFO - Started process (PID=1023) to work on /opt/airflow/dags/dag_predict.py
+[2024-04-29T19:56:46.402+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_predict.py for tasks to queue
+[2024-04-29T19:56:46.405+0000] {logging_mixin.py:188} INFO - [2024-04-29T19:56:46.404+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_predict.py
+[2024-04-29T19:56:51.139+0000] {processor.py:840} INFO - DAG(s) 'predict_v8' retrieved from /opt/airflow/dags/dag_predict.py
+[2024-04-29T19:56:51.183+0000] {logging_mixin.py:188} INFO - [2024-04-29T19:56:51.182+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T19:56:51.228+0000] {logging_mixin.py:188} INFO - [2024-04-29T19:56:51.227+0000] {dag.py:3954} INFO - Setting next_dagrun for predict_v8 to 2024-04-29 00:00:00+00:00, run_after=2024-04-30 00:00:00+00:00
+[2024-04-29T19:56:51.276+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_predict.py took 4.898 seconds
+[2024-04-29T19:57:21.463+0000] {processor.py:161} INFO - Started process (PID=1098) to work on /opt/airflow/dags/dag_predict.py
+[2024-04-29T19:57:21.466+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_predict.py for tasks to queue
+[2024-04-29T19:57:21.468+0000] {logging_mixin.py:188} INFO - [2024-04-29T19:57:21.467+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_predict.py
+[2024-04-29T19:57:23.341+0000] {processor.py:840} INFO - DAG(s) 'predict_v8' retrieved from /opt/airflow/dags/dag_predict.py
+[2024-04-29T19:57:23.390+0000] {logging_mixin.py:188} INFO - [2024-04-29T19:57:23.390+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T19:57:23.432+0000] {logging_mixin.py:188} INFO - [2024-04-29T19:57:23.431+0000] {dag.py:3954} INFO - Setting next_dagrun for predict_v8 to 2024-04-29 00:00:00+00:00, run_after=2024-04-30 00:00:00+00:00
+[2024-04-29T19:57:23.478+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_predict.py took 2.023 seconds
+[2024-04-29T19:57:40.216+0000] {processor.py:161} INFO - Started process (PID=1146) to work on /opt/airflow/dags/dag_predict.py
+[2024-04-29T19:57:40.218+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_predict.py for tasks to queue
+[2024-04-29T19:57:40.220+0000] {logging_mixin.py:188} INFO - [2024-04-29T19:57:40.219+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_predict.py
+[2024-04-29T19:57:42.155+0000] {processor.py:840} INFO - DAG(s) 'predict_v9' retrieved from /opt/airflow/dags/dag_predict.py
+[2024-04-29T19:57:42.366+0000] {logging_mixin.py:188} INFO - [2024-04-29T19:57:42.365+0000] {override.py:1829} INFO - Created Permission View: can edit on DAG:predict_v9
+[2024-04-29T19:57:42.381+0000] {logging_mixin.py:188} INFO - [2024-04-29T19:57:42.381+0000] {override.py:1829} INFO - Created Permission View: can read on DAG:predict_v9
+[2024-04-29T19:57:42.391+0000] {logging_mixin.py:188} INFO - [2024-04-29T19:57:42.391+0000] {override.py:1829} INFO - Created Permission View: can delete on DAG:predict_v9
+[2024-04-29T19:57:42.393+0000] {logging_mixin.py:188} INFO - [2024-04-29T19:57:42.392+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T19:57:42.407+0000] {logging_mixin.py:188} INFO - [2024-04-29T19:57:42.406+0000] {dag.py:3118} INFO - Creating ORM DAG for predict_v9
+[2024-04-29T19:57:42.421+0000] {logging_mixin.py:188} INFO - [2024-04-29T19:57:42.420+0000] {dag.py:3954} INFO - Setting next_dagrun for predict_v9 to 2024-04-28 00:00:00+00:00, run_after=2024-04-29 00:00:00+00:00
+[2024-04-29T19:57:42.450+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_predict.py took 2.244 seconds
+[2024-04-29T19:58:12.551+0000] {processor.py:161} INFO - Started process (PID=1237) to work on /opt/airflow/dags/dag_predict.py
+[2024-04-29T19:58:12.553+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_predict.py for tasks to queue
+[2024-04-29T19:58:12.555+0000] {logging_mixin.py:188} INFO - [2024-04-29T19:58:12.554+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_predict.py
+[2024-04-29T19:58:13.733+0000] {processor.py:840} INFO - DAG(s) 'predict_v9' retrieved from /opt/airflow/dags/dag_predict.py
+[2024-04-29T19:58:13.761+0000] {logging_mixin.py:188} INFO - [2024-04-29T19:58:13.760+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T19:58:13.784+0000] {logging_mixin.py:188} INFO - [2024-04-29T19:58:13.784+0000] {dag.py:3954} INFO - Setting next_dagrun for predict_v9 to 2024-04-29 00:00:00+00:00, run_after=2024-04-30 00:00:00+00:00
+[2024-04-29T19:58:13.811+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_predict.py took 1.266 seconds
+[2024-04-29T19:58:31.612+0000] {processor.py:161} INFO - Started process (PID=1296) to work on /opt/airflow/dags/dag_predict.py
+[2024-04-29T19:58:31.623+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_predict.py for tasks to queue
+[2024-04-29T19:58:31.625+0000] {logging_mixin.py:188} INFO - [2024-04-29T19:58:31.625+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_predict.py
+[2024-04-29T19:58:32.808+0000] {processor.py:840} INFO - DAG(s) 'predict_v9' retrieved from /opt/airflow/dags/dag_predict.py
+[2024-04-29T19:58:32.859+0000] {logging_mixin.py:188} INFO - [2024-04-29T19:58:32.858+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T19:58:32.919+0000] {logging_mixin.py:188} INFO - [2024-04-29T19:58:32.918+0000] {dag.py:3954} INFO - Setting next_dagrun for predict_v9 to 2024-04-29 00:00:00+00:00, run_after=2024-04-30 00:00:00+00:00
+[2024-04-29T19:58:32.975+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_predict.py took 1.372 seconds
+[2024-04-29T19:58:38.112+0000] {processor.py:161} INFO - Started process (PID=1317) to work on /opt/airflow/dags/dag_predict.py
+[2024-04-29T19:58:38.114+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_predict.py for tasks to queue
+[2024-04-29T19:58:38.116+0000] {logging_mixin.py:188} INFO - [2024-04-29T19:58:38.115+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_predict.py
+[2024-04-29T19:58:39.306+0000] {processor.py:840} INFO - DAG(s) 'predict_v10' retrieved from /opt/airflow/dags/dag_predict.py
+[2024-04-29T19:58:39.440+0000] {logging_mixin.py:188} INFO - [2024-04-29T19:58:39.439+0000] {override.py:1829} INFO - Created Permission View: can edit on DAG:predict_v10
+[2024-04-29T19:58:39.456+0000] {logging_mixin.py:188} INFO - [2024-04-29T19:58:39.455+0000] {override.py:1829} INFO - Created Permission View: can read on DAG:predict_v10
+[2024-04-29T19:58:39.467+0000] {logging_mixin.py:188} INFO - [2024-04-29T19:58:39.467+0000] {override.py:1829} INFO - Created Permission View: can delete on DAG:predict_v10
+[2024-04-29T19:58:39.469+0000] {logging_mixin.py:188} INFO - [2024-04-29T19:58:39.468+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T19:58:39.492+0000] {logging_mixin.py:188} INFO - [2024-04-29T19:58:39.490+0000] {dag.py:3118} INFO - Creating ORM DAG for predict_v10
+[2024-04-29T19:58:39.524+0000] {logging_mixin.py:188} INFO - [2024-04-29T19:58:39.523+0000] {dag.py:3954} INFO - Setting next_dagrun for predict_v10 to 2024-04-28 00:00:00+00:00, run_after=2024-04-29 00:00:00+00:00
+[2024-04-29T19:58:39.589+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_predict.py took 1.485 seconds
+[2024-04-29T19:59:10.134+0000] {processor.py:161} INFO - Started process (PID=1409) to work on /opt/airflow/dags/dag_predict.py
+[2024-04-29T19:59:10.136+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_predict.py for tasks to queue
+[2024-04-29T19:59:10.137+0000] {logging_mixin.py:188} INFO - [2024-04-29T19:59:10.137+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_predict.py
+[2024-04-29T19:59:11.268+0000] {processor.py:840} INFO - DAG(s) 'predict_v10' retrieved from /opt/airflow/dags/dag_predict.py
+[2024-04-29T19:59:11.302+0000] {logging_mixin.py:188} INFO - [2024-04-29T19:59:11.301+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T19:59:11.332+0000] {logging_mixin.py:188} INFO - [2024-04-29T19:59:11.332+0000] {dag.py:3954} INFO - Setting next_dagrun for predict_v10 to 2024-04-29 00:00:00+00:00, run_after=2024-04-30 00:00:00+00:00
+[2024-04-29T19:59:11.358+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_predict.py took 1.230 seconds
+[2024-04-29T19:59:42.110+0000] {processor.py:161} INFO - Started process (PID=1468) to work on /opt/airflow/dags/dag_predict.py
+[2024-04-29T19:59:42.111+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_predict.py for tasks to queue
+[2024-04-29T19:59:42.112+0000] {logging_mixin.py:188} INFO - [2024-04-29T19:59:42.112+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_predict.py
+[2024-04-29T19:59:43.305+0000] {processor.py:840} INFO - DAG(s) 'predict_v10' retrieved from /opt/airflow/dags/dag_predict.py
+[2024-04-29T19:59:43.332+0000] {logging_mixin.py:188} INFO - [2024-04-29T19:59:43.332+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T19:59:43.354+0000] {logging_mixin.py:188} INFO - [2024-04-29T19:59:43.353+0000] {dag.py:3954} INFO - Setting next_dagrun for predict_v10 to 2024-04-29 00:00:00+00:00, run_after=2024-04-30 00:00:00+00:00
+[2024-04-29T19:59:43.374+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_predict.py took 1.270 seconds
+[2024-04-29T19:59:52.732+0000] {processor.py:161} INFO - Started process (PID=1501) to work on /opt/airflow/dags/dag_predict.py
+[2024-04-29T19:59:52.734+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_predict.py for tasks to queue
+[2024-04-29T19:59:52.736+0000] {logging_mixin.py:188} INFO - [2024-04-29T19:59:52.736+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_predict.py
+[2024-04-29T19:59:54.287+0000] {processor.py:840} INFO - DAG(s) 'predict_v10' retrieved from /opt/airflow/dags/dag_predict.py
+[2024-04-29T19:59:54.322+0000] {logging_mixin.py:188} INFO - [2024-04-29T19:59:54.322+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T19:59:54.351+0000] {logging_mixin.py:188} INFO - [2024-04-29T19:59:54.350+0000] {dag.py:3954} INFO - Setting next_dagrun for predict_v10 to 2024-04-29 00:00:00+00:00, run_after=2024-04-30 00:00:00+00:00
+[2024-04-29T19:59:54.389+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_predict.py took 1.675 seconds
+[2024-04-29T19:59:59.614+0000] {processor.py:161} INFO - Started process (PID=1522) to work on /opt/airflow/dags/dag_predict.py
+[2024-04-29T19:59:59.615+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_predict.py for tasks to queue
+[2024-04-29T19:59:59.616+0000] {logging_mixin.py:188} INFO - [2024-04-29T19:59:59.616+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_predict.py
+[2024-04-29T20:00:01.104+0000] {processor.py:840} INFO - DAG(s) 'predict_v11' retrieved from /opt/airflow/dags/dag_predict.py
+[2024-04-29T20:00:01.193+0000] {logging_mixin.py:188} INFO - [2024-04-29T20:00:01.192+0000] {override.py:1829} INFO - Created Permission View: can edit on DAG:predict_v11
+[2024-04-29T20:00:01.204+0000] {logging_mixin.py:188} INFO - [2024-04-29T20:00:01.203+0000] {override.py:1829} INFO - Created Permission View: can read on DAG:predict_v11
+[2024-04-29T20:00:01.211+0000] {logging_mixin.py:188} INFO - [2024-04-29T20:00:01.211+0000] {override.py:1829} INFO - Created Permission View: can delete on DAG:predict_v11
+[2024-04-29T20:00:01.212+0000] {logging_mixin.py:188} INFO - [2024-04-29T20:00:01.212+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T20:00:01.222+0000] {logging_mixin.py:188} INFO - [2024-04-29T20:00:01.221+0000] {dag.py:3118} INFO - Creating ORM DAG for predict_v11
+[2024-04-29T20:00:01.232+0000] {logging_mixin.py:188} INFO - [2024-04-29T20:00:01.232+0000] {dag.py:3954} INFO - Setting next_dagrun for predict_v11 to 2024-04-28 00:00:00+00:00, run_after=2024-04-29 00:00:00+00:00
+[2024-04-29T20:00:01.263+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_predict.py took 1.657 seconds
+[2024-04-29T20:00:31.473+0000] {processor.py:161} INFO - Started process (PID=1618) to work on /opt/airflow/dags/dag_predict.py
+[2024-04-29T20:00:31.476+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_predict.py for tasks to queue
+[2024-04-29T20:00:31.478+0000] {logging_mixin.py:188} INFO - [2024-04-29T20:00:31.477+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_predict.py
+[2024-04-29T20:00:32.928+0000] {processor.py:840} INFO - DAG(s) 'predict_v11' retrieved from /opt/airflow/dags/dag_predict.py
+[2024-04-29T20:00:32.950+0000] {logging_mixin.py:188} INFO - [2024-04-29T20:00:32.950+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T20:00:32.970+0000] {logging_mixin.py:188} INFO - [2024-04-29T20:00:32.970+0000] {dag.py:3954} INFO - Setting next_dagrun for predict_v11 to 2024-04-29 00:00:00+00:00, run_after=2024-04-30 00:00:00+00:00
+[2024-04-29T20:00:32.993+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_predict.py took 1.531 seconds
+[2024-04-29T20:00:58.680+0000] {processor.py:161} INFO - Started process (PID=1673) to work on /opt/airflow/dags/dag_predict.py
+[2024-04-29T20:00:58.681+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_predict.py for tasks to queue
+[2024-04-29T20:00:58.682+0000] {logging_mixin.py:188} INFO - [2024-04-29T20:00:58.682+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_predict.py
+[2024-04-29T20:00:59.722+0000] {processor.py:840} INFO - DAG(s) 'predict_v11' retrieved from /opt/airflow/dags/dag_predict.py
+[2024-04-29T20:00:59.746+0000] {logging_mixin.py:188} INFO - [2024-04-29T20:00:59.746+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T20:00:59.767+0000] {logging_mixin.py:188} INFO - [2024-04-29T20:00:59.766+0000] {dag.py:3954} INFO - Setting next_dagrun for predict_v11 to 2024-04-29 00:00:00+00:00, run_after=2024-04-30 00:00:00+00:00
+[2024-04-29T20:00:59.790+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_predict.py took 1.116 seconds
+[2024-04-29T20:01:01.761+0000] {processor.py:161} INFO - Started process (PID=1694) to work on /opt/airflow/dags/dag_predict.py
+[2024-04-29T20:01:01.762+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_predict.py for tasks to queue
+[2024-04-29T20:01:01.763+0000] {logging_mixin.py:188} INFO - [2024-04-29T20:01:01.763+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_predict.py
+[2024-04-29T20:01:02.728+0000] {processor.py:840} INFO - DAG(s) 'predict_v12' retrieved from /opt/airflow/dags/dag_predict.py
+[2024-04-29T20:01:02.841+0000] {logging_mixin.py:188} INFO - [2024-04-29T20:01:02.840+0000] {override.py:1829} INFO - Created Permission View: can edit on DAG:predict_v12
+[2024-04-29T20:01:02.853+0000] {logging_mixin.py:188} INFO - [2024-04-29T20:01:02.853+0000] {override.py:1829} INFO - Created Permission View: can read on DAG:predict_v12
+[2024-04-29T20:01:02.862+0000] {logging_mixin.py:188} INFO - [2024-04-29T20:01:02.862+0000] {override.py:1829} INFO - Created Permission View: can delete on DAG:predict_v12
+[2024-04-29T20:01:02.863+0000] {logging_mixin.py:188} INFO - [2024-04-29T20:01:02.863+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T20:01:02.874+0000] {logging_mixin.py:188} INFO - [2024-04-29T20:01:02.874+0000] {dag.py:3118} INFO - Creating ORM DAG for predict_v12
+[2024-04-29T20:01:02.890+0000] {logging_mixin.py:188} INFO - [2024-04-29T20:01:02.889+0000] {dag.py:3954} INFO - Setting next_dagrun for predict_v12 to 2024-04-28 00:00:00+00:00, run_after=2024-04-29 00:00:00+00:00
+[2024-04-29T20:01:02.914+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_predict.py took 1.159 seconds
+[2024-04-29T20:01:33.146+0000] {processor.py:161} INFO - Started process (PID=1786) to work on /opt/airflow/dags/dag_predict.py
+[2024-04-29T20:01:33.148+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_predict.py for tasks to queue
+[2024-04-29T20:01:33.149+0000] {logging_mixin.py:188} INFO - [2024-04-29T20:01:33.149+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_predict.py
+[2024-04-29T20:01:34.028+0000] {processor.py:840} INFO - DAG(s) 'predict_v12' retrieved from /opt/airflow/dags/dag_predict.py
+[2024-04-29T20:01:34.049+0000] {logging_mixin.py:188} INFO - [2024-04-29T20:01:34.049+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T20:01:34.069+0000] {logging_mixin.py:188} INFO - [2024-04-29T20:01:34.069+0000] {dag.py:3954} INFO - Setting next_dagrun for predict_v12 to 2024-04-29 00:00:00+00:00, run_after=2024-04-30 00:00:00+00:00
+[2024-04-29T20:01:34.093+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_predict.py took 0.955 seconds
+[2024-04-29T20:02:03.750+0000] {processor.py:161} INFO - Started process (PID=1845) to work on /opt/airflow/dags/dag_predict.py
+[2024-04-29T20:02:03.751+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_predict.py for tasks to queue
+[2024-04-29T20:02:03.753+0000] {logging_mixin.py:188} INFO - [2024-04-29T20:02:03.753+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_predict.py
+[2024-04-29T20:02:04.654+0000] {processor.py:840} INFO - DAG(s) 'predict_v12' retrieved from /opt/airflow/dags/dag_predict.py
+[2024-04-29T20:02:04.674+0000] {logging_mixin.py:188} INFO - [2024-04-29T20:02:04.674+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T20:02:04.691+0000] {logging_mixin.py:188} INFO - [2024-04-29T20:02:04.690+0000] {dag.py:3954} INFO - Setting next_dagrun for predict_v12 to 2024-04-29 00:00:00+00:00, run_after=2024-04-30 00:00:00+00:00
+[2024-04-29T20:02:04.724+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_predict.py took 0.980 seconds
+[2024-04-29T20:02:08.745+0000] {processor.py:161} INFO - Started process (PID=1872) to work on /opt/airflow/dags/dag_predict.py
+[2024-04-29T20:02:08.747+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_predict.py for tasks to queue
+[2024-04-29T20:02:08.748+0000] {logging_mixin.py:188} INFO - [2024-04-29T20:02:08.748+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_predict.py
+[2024-04-29T20:02:09.882+0000] {processor.py:840} INFO - DAG(s) 'predict_v13' retrieved from /opt/airflow/dags/dag_predict.py
+[2024-04-29T20:02:10.050+0000] {logging_mixin.py:188} INFO - [2024-04-29T20:02:10.049+0000] {override.py:1829} INFO - Created Permission View: can edit on DAG:predict_v13
+[2024-04-29T20:02:10.062+0000] {logging_mixin.py:188} INFO - [2024-04-29T20:02:10.062+0000] {override.py:1829} INFO - Created Permission View: can read on DAG:predict_v13
+[2024-04-29T20:02:10.070+0000] {logging_mixin.py:188} INFO - [2024-04-29T20:02:10.070+0000] {override.py:1829} INFO - Created Permission View: can delete on DAG:predict_v13
+[2024-04-29T20:02:10.071+0000] {logging_mixin.py:188} INFO - [2024-04-29T20:02:10.071+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T20:02:10.084+0000] {logging_mixin.py:188} INFO - [2024-04-29T20:02:10.083+0000] {dag.py:3118} INFO - Creating ORM DAG for predict_v13
+[2024-04-29T20:02:10.105+0000] {logging_mixin.py:188} INFO - [2024-04-29T20:02:10.105+0000] {dag.py:3954} INFO - Setting next_dagrun for predict_v13 to 2024-04-28 00:00:00+00:00, run_after=2024-04-29 00:00:00+00:00
+[2024-04-29T20:02:10.314+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_predict.py took 1.576 seconds
+[2024-04-29T20:02:40.615+0000] {processor.py:161} INFO - Started process (PID=1964) to work on /opt/airflow/dags/dag_predict.py
+[2024-04-29T20:02:40.616+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_predict.py for tasks to queue
+[2024-04-29T20:02:40.617+0000] {logging_mixin.py:188} INFO - [2024-04-29T20:02:40.617+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_predict.py
+[2024-04-29T20:02:41.542+0000] {processor.py:840} INFO - DAG(s) 'predict_v13' retrieved from /opt/airflow/dags/dag_predict.py
+[2024-04-29T20:02:41.563+0000] {logging_mixin.py:188} INFO - [2024-04-29T20:02:41.563+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T20:02:41.584+0000] {logging_mixin.py:188} INFO - [2024-04-29T20:02:41.584+0000] {dag.py:3954} INFO - Setting next_dagrun for predict_v13 to 2024-04-29 00:00:00+00:00, run_after=2024-04-30 00:00:00+00:00
+[2024-04-29T20:02:41.606+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_predict.py took 0.997 seconds
+[2024-04-29T20:03:11.732+0000] {processor.py:161} INFO - Started process (PID=2023) to work on /opt/airflow/dags/dag_predict.py
+[2024-04-29T20:03:11.733+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_predict.py for tasks to queue
+[2024-04-29T20:03:11.735+0000] {logging_mixin.py:188} INFO - [2024-04-29T20:03:11.735+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_predict.py
+[2024-04-29T20:03:12.799+0000] {processor.py:840} INFO - DAG(s) 'predict_v13' retrieved from /opt/airflow/dags/dag_predict.py
+[2024-04-29T20:03:12.838+0000] {logging_mixin.py:188} INFO - [2024-04-29T20:03:12.838+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T20:03:12.882+0000] {logging_mixin.py:188} INFO - [2024-04-29T20:03:12.882+0000] {dag.py:3954} INFO - Setting next_dagrun for predict_v13 to 2024-04-29 00:00:00+00:00, run_after=2024-04-30 00:00:00+00:00
+[2024-04-29T20:03:12.898+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_predict.py took 1.175 seconds
+[2024-04-29T20:03:12.965+0000] {processor.py:161} INFO - Started process (PID=2062) to work on /opt/airflow/dags/dag_predict.py
+[2024-04-29T20:03:12.966+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_predict.py for tasks to queue
+[2024-04-29T20:03:12.967+0000] {logging_mixin.py:188} INFO - [2024-04-29T20:03:12.967+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_predict.py
+[2024-04-29T20:03:13.828+0000] {processor.py:840} INFO - DAG(s) 'predict_v13' retrieved from /opt/airflow/dags/dag_predict.py
+[2024-04-29T20:03:13.845+0000] {logging_mixin.py:188} INFO - [2024-04-29T20:03:13.844+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T20:03:13.858+0000] {logging_mixin.py:188} INFO - [2024-04-29T20:03:13.858+0000] {dag.py:3954} INFO - Setting next_dagrun for predict_v13 to 2024-04-29 00:00:00+00:00, run_after=2024-04-30 00:00:00+00:00
+[2024-04-29T20:03:13.878+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_predict.py took 0.917 seconds
+[2024-04-29T20:03:18.914+0000] {processor.py:161} INFO - Started process (PID=2092) to work on /opt/airflow/dags/dag_predict.py
+[2024-04-29T20:03:18.916+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_predict.py for tasks to queue
+[2024-04-29T20:03:18.917+0000] {logging_mixin.py:188} INFO - [2024-04-29T20:03:18.917+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_predict.py
+[2024-04-29T20:03:20.221+0000] {processor.py:840} INFO - DAG(s) 'predict_v14' retrieved from /opt/airflow/dags/dag_predict.py
+[2024-04-29T20:03:20.349+0000] {logging_mixin.py:188} INFO - [2024-04-29T20:03:20.348+0000] {override.py:1829} INFO - Created Permission View: can edit on DAG:predict_v14
+[2024-04-29T20:03:20.369+0000] {logging_mixin.py:188} INFO - [2024-04-29T20:03:20.368+0000] {override.py:1829} INFO - Created Permission View: can read on DAG:predict_v14
+[2024-04-29T20:03:20.384+0000] {logging_mixin.py:188} INFO - [2024-04-29T20:03:20.384+0000] {override.py:1829} INFO - Created Permission View: can delete on DAG:predict_v14
+[2024-04-29T20:03:20.387+0000] {logging_mixin.py:188} INFO - [2024-04-29T20:03:20.386+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T20:03:20.403+0000] {logging_mixin.py:188} INFO - [2024-04-29T20:03:20.402+0000] {dag.py:3118} INFO - Creating ORM DAG for predict_v14
+[2024-04-29T20:03:20.418+0000] {logging_mixin.py:188} INFO - [2024-04-29T20:03:20.418+0000] {dag.py:3954} INFO - Setting next_dagrun for predict_v14 to 2024-04-28 00:00:00+00:00, run_after=2024-04-29 00:00:00+00:00
+[2024-04-29T20:03:20.462+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_predict.py took 1.554 seconds
+[2024-04-29T20:03:50.743+0000] {processor.py:161} INFO - Started process (PID=2184) to work on /opt/airflow/dags/dag_predict.py
+[2024-04-29T20:03:50.745+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_predict.py for tasks to queue
+[2024-04-29T20:03:50.746+0000] {logging_mixin.py:188} INFO - [2024-04-29T20:03:50.746+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_predict.py
+[2024-04-29T20:03:51.586+0000] {processor.py:840} INFO - DAG(s) 'predict_v14' retrieved from /opt/airflow/dags/dag_predict.py
+[2024-04-29T20:03:51.603+0000] {logging_mixin.py:188} INFO - [2024-04-29T20:03:51.602+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T20:03:51.619+0000] {logging_mixin.py:188} INFO - [2024-04-29T20:03:51.619+0000] {dag.py:3954} INFO - Setting next_dagrun for predict_v14 to 2024-04-29 00:00:00+00:00, run_after=2024-04-30 00:00:00+00:00
+[2024-04-29T20:03:51.641+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_predict.py took 0.906 seconds
+[2024-04-29T20:04:22.335+0000] {processor.py:161} INFO - Started process (PID=2243) to work on /opt/airflow/dags/dag_predict.py
+[2024-04-29T20:04:22.337+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_predict.py for tasks to queue
+[2024-04-29T20:04:22.339+0000] {logging_mixin.py:188} INFO - [2024-04-29T20:04:22.338+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_predict.py
+[2024-04-29T20:04:23.595+0000] {processor.py:840} INFO - DAG(s) 'predict_v14' retrieved from /opt/airflow/dags/dag_predict.py
+[2024-04-29T20:04:23.620+0000] {logging_mixin.py:188} INFO - [2024-04-29T20:04:23.619+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T20:04:23.639+0000] {logging_mixin.py:188} INFO - [2024-04-29T20:04:23.639+0000] {dag.py:3954} INFO - Setting next_dagrun for predict_v14 to 2024-04-29 00:00:00+00:00, run_after=2024-04-30 00:00:00+00:00
+[2024-04-29T20:04:23.656+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_predict.py took 1.329 seconds
+[2024-04-29T20:04:44.522+0000] {processor.py:161} INFO - Started process (PID=2275) to work on /opt/airflow/dags/dag_predict.py
+[2024-04-29T20:04:44.523+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_predict.py for tasks to queue
+[2024-04-29T20:04:44.525+0000] {logging_mixin.py:188} INFO - [2024-04-29T20:04:44.525+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_predict.py
+[2024-04-29T20:04:45.640+0000] {processor.py:840} INFO - DAG(s) 'predict_v14' retrieved from /opt/airflow/dags/dag_predict.py
+[2024-04-29T20:04:45.755+0000] {logging_mixin.py:188} INFO - [2024-04-29T20:04:45.755+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T20:04:45.774+0000] {logging_mixin.py:188} INFO - [2024-04-29T20:04:45.774+0000] {dag.py:3954} INFO - Setting next_dagrun for predict_v14 to 2024-05-01 00:00:00+00:00, run_after=2024-06-01 00:00:00+00:00
+[2024-04-29T20:04:45.805+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_predict.py took 1.292 seconds
+[2024-04-29T20:05:16.136+0000] {processor.py:161} INFO - Started process (PID=2361) to work on /opt/airflow/dags/dag_predict.py
+[2024-04-29T20:05:16.138+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_predict.py for tasks to queue
+[2024-04-29T20:05:16.139+0000] {logging_mixin.py:188} INFO - [2024-04-29T20:05:16.139+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_predict.py
+[2024-04-29T20:05:17.135+0000] {processor.py:840} INFO - DAG(s) 'predict_v14' retrieved from /opt/airflow/dags/dag_predict.py
+[2024-04-29T20:05:17.154+0000] {logging_mixin.py:188} INFO - [2024-04-29T20:05:17.153+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T20:05:17.171+0000] {logging_mixin.py:188} INFO - [2024-04-29T20:05:17.171+0000] {dag.py:3954} INFO - Setting next_dagrun for predict_v14 to 2024-05-01 00:00:00+00:00, run_after=2024-06-01 00:00:00+00:00
+[2024-04-29T20:05:17.198+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_predict.py took 1.067 seconds
+[2024-04-29T20:05:47.690+0000] {processor.py:161} INFO - Started process (PID=2420) to work on /opt/airflow/dags/dag_predict.py
+[2024-04-29T20:05:47.692+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_predict.py for tasks to queue
+[2024-04-29T20:05:47.694+0000] {logging_mixin.py:188} INFO - [2024-04-29T20:05:47.693+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_predict.py
+[2024-04-29T20:05:48.732+0000] {processor.py:840} INFO - DAG(s) 'predict_v14' retrieved from /opt/airflow/dags/dag_predict.py
+[2024-04-29T20:05:48.763+0000] {logging_mixin.py:188} INFO - [2024-04-29T20:05:48.763+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T20:05:48.781+0000] {logging_mixin.py:188} INFO - [2024-04-29T20:05:48.781+0000] {dag.py:3954} INFO - Setting next_dagrun for predict_v14 to 2024-05-01 00:00:00+00:00, run_after=2024-06-01 00:00:00+00:00
+[2024-04-29T20:05:48.805+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_predict.py took 1.124 seconds
+[2024-04-29T20:06:19.408+0000] {processor.py:161} INFO - Started process (PID=2479) to work on /opt/airflow/dags/dag_predict.py
+[2024-04-29T20:06:19.410+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_predict.py for tasks to queue
+[2024-04-29T20:06:19.411+0000] {logging_mixin.py:188} INFO - [2024-04-29T20:06:19.411+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_predict.py
+[2024-04-29T20:06:20.331+0000] {processor.py:840} INFO - DAG(s) 'predict_v14' retrieved from /opt/airflow/dags/dag_predict.py
+[2024-04-29T20:06:20.353+0000] {logging_mixin.py:188} INFO - [2024-04-29T20:06:20.353+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T20:06:20.374+0000] {logging_mixin.py:188} INFO - [2024-04-29T20:06:20.374+0000] {dag.py:3954} INFO - Setting next_dagrun for predict_v14 to 2024-05-01 00:00:00+00:00, run_after=2024-06-01 00:00:00+00:00
+[2024-04-29T20:06:20.396+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_predict.py took 0.994 seconds
+[2024-04-29T20:06:50.647+0000] {processor.py:161} INFO - Started process (PID=2538) to work on /opt/airflow/dags/dag_predict.py
+[2024-04-29T20:06:50.649+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_predict.py for tasks to queue
+[2024-04-29T20:06:50.651+0000] {logging_mixin.py:188} INFO - [2024-04-29T20:06:50.651+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_predict.py
+[2024-04-29T20:06:52.205+0000] {processor.py:840} INFO - DAG(s) 'predict_v14' retrieved from /opt/airflow/dags/dag_predict.py
+[2024-04-29T20:06:52.239+0000] {logging_mixin.py:188} INFO - [2024-04-29T20:06:52.238+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T20:06:52.265+0000] {logging_mixin.py:188} INFO - [2024-04-29T20:06:52.264+0000] {dag.py:3954} INFO - Setting next_dagrun for predict_v14 to 2024-05-01 00:00:00+00:00, run_after=2024-06-01 00:00:00+00:00
+[2024-04-29T20:06:52.300+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_predict.py took 1.662 seconds
+[2024-04-29T20:07:22.676+0000] {processor.py:161} INFO - Started process (PID=2597) to work on /opt/airflow/dags/dag_predict.py
+[2024-04-29T20:07:22.679+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_predict.py for tasks to queue
+[2024-04-29T20:07:22.681+0000] {logging_mixin.py:188} INFO - [2024-04-29T20:07:22.680+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_predict.py
+[2024-04-29T20:07:23.758+0000] {processor.py:840} INFO - DAG(s) 'predict_v14' retrieved from /opt/airflow/dags/dag_predict.py
+[2024-04-29T20:07:23.787+0000] {logging_mixin.py:188} INFO - [2024-04-29T20:07:23.787+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T20:07:23.808+0000] {logging_mixin.py:188} INFO - [2024-04-29T20:07:23.808+0000] {dag.py:3954} INFO - Setting next_dagrun for predict_v14 to 2024-05-01 00:00:00+00:00, run_after=2024-06-01 00:00:00+00:00
+[2024-04-29T20:07:23.838+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_predict.py took 1.174 seconds
+[2024-04-29T20:07:54.087+0000] {processor.py:161} INFO - Started process (PID=2656) to work on /opt/airflow/dags/dag_predict.py
+[2024-04-29T20:07:54.089+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_predict.py for tasks to queue
+[2024-04-29T20:07:54.091+0000] {logging_mixin.py:188} INFO - [2024-04-29T20:07:54.090+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_predict.py
+[2024-04-29T20:07:55.095+0000] {processor.py:840} INFO - DAG(s) 'predict_v14' retrieved from /opt/airflow/dags/dag_predict.py
+[2024-04-29T20:07:55.122+0000] {logging_mixin.py:188} INFO - [2024-04-29T20:07:55.121+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-29T20:07:55.145+0000] {logging_mixin.py:188} INFO - [2024-04-29T20:07:55.145+0000] {dag.py:3954} INFO - Setting next_dagrun for predict_v14 to 2024-05-01 00:00:00+00:00, run_after=2024-06-01 00:00:00+00:00
+[2024-04-29T20:07:55.168+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_predict.py took 1.090 seconds
