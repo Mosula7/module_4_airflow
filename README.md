@@ -19,3 +19,5 @@ After this is done to run all the contaiers you can run
 ```
 dcoker-compose up -d
 ```
+
+You can acess the webserver on localhost 8080, with default password and username: airflow, postgress user and passowrod is also set to airflow
