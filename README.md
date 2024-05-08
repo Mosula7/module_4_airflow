@@ -6,9 +6,10 @@ The Project Consists of four dags, please run them in the order listed here:
 
 docker-compose.yml - makes volumes for logs, dags, config_files, data and models folder, makes a postgress database.
 
-First you need to add an .env file in the directory with AIRFLOW_UID for example:
+First you need to add an .env file in the directory with AIRFLOW_UID and AIRFLOW_GID for example:
 ```
 AIRFLOW_UID=50000
+AIRFLOW_GID=50000
 ```
 to run the container first run:
 ```
