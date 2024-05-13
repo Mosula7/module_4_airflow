@@ -11,6 +11,7 @@ First you need to add an .env file in the directory with AIRFLOW_UID and AIRFLOW
 AIRFLOW_UID=50000
 AIRFLOW_GID=50000
 ```
+**IMPORTANT:** If you want to run the container you either need to run it under GID 0 or UID 50000 (or both)
 to run the container first run:
 ```
 docker-compose up airflow-init
